@@ -1,0 +1,42 @@
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+
+.leftsection {
+    width: 30%;
+    font-size: 2rem;
+
+}
+
+.rightsection img {
+
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+.orange {
+    color: orange;
+}
+
+@media(max-width:768px){
+    .leftsection{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .rightsection img{
+        display: none;
+    }
+}
